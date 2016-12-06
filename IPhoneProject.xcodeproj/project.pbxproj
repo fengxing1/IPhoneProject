@@ -15,6 +15,22 @@
 		8B9FB0C61DF66307003DC57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9FB0C51DF66307003DC57C /* Assets.xcassets */; };
 		8B9FB0C91DF66307003DC57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9FB0C71DF66307003DC57C /* LaunchScreen.storyboard */; };
 		8B9FB0D41DF66307003DC57C /* IPhoneProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB0D31DF66307003DC57C /* IPhoneProjectTests.m */; };
+		8B9FB1131DF6AD3F003DC57C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1061DF6AD3F003DC57C /* Reachability.m */; };
+		8B9FB1141DF6AD3F003DC57C /* MPLoggerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1091DF6AD3F003DC57C /* MPLoggerFormatter.m */; };
+		8B9FB1151DF6AD3F003DC57C /* MyFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB10B1DF6AD3F003DC57C /* MyFileLogger.m */; };
+		8B9FB1161DF6AD3F003DC57C /* FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB10E1DF6AD3F003DC57C /* FCUUID.m */; };
+		8B9FB1171DF6AD3F003DC57C /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1101DF6AD3F003DC57C /* UICKeyChainStore.m */; };
+		8B9FB1181DF6AD3F003DC57C /* UIDevice+FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1121DF6AD3F003DC57C /* UIDevice+FCUUID.m */; };
+		8B9FB11C1DF6ADCB003DC57C /* JSPatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB11B1DF6ADCB003DC57C /* JSPatchHelper.m */; };
+		8B9FB1321DF6AF6B003DC57C /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1201DF6AF6B003DC57C /* YTKBaseRequest.m */; };
+		8B9FB1331DF6AF6B003DC57C /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1221DF6AF6B003DC57C /* YTKBatchRequest.m */; };
+		8B9FB1341DF6AF6B003DC57C /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1241DF6AF6B003DC57C /* YTKBatchRequestAgent.m */; };
+		8B9FB1351DF6AF6B003DC57C /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1261DF6AF6B003DC57C /* YTKChainRequest.m */; };
+		8B9FB1361DF6AF6B003DC57C /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1281DF6AF6B003DC57C /* YTKChainRequestAgent.m */; };
+		8B9FB1371DF6AF6B003DC57C /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB12B1DF6AF6B003DC57C /* YTKNetworkAgent.m */; };
+		8B9FB1381DF6AF6B003DC57C /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB12D1DF6AF6B003DC57C /* YTKNetworkConfig.m */; };
+		8B9FB1391DF6AF6B003DC57C /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB12F1DF6AF6B003DC57C /* YTKNetworkPrivate.m */; };
+		8B9FB13A1DF6AF6B003DC57C /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FB1311DF6AF6B003DC57C /* YTKRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,39 @@
 		8B9FB0CF1DF66307003DC57C /* IPhoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPhoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9FB0D31DF66307003DC57C /* IPhoneProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneProjectTests.m; sourceTree = "<group>"; };
 		8B9FB0D51DF66307003DC57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9FB1051DF6AD3F003DC57C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8B9FB1061DF6AD3F003DC57C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8B9FB1081DF6AD3F003DC57C /* MPLoggerFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLoggerFormatter.h; sourceTree = "<group>"; };
+		8B9FB1091DF6AD3F003DC57C /* MPLoggerFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLoggerFormatter.m; sourceTree = "<group>"; };
+		8B9FB10A1DF6AD3F003DC57C /* MyFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileLogger.h; sourceTree = "<group>"; };
+		8B9FB10B1DF6AD3F003DC57C /* MyFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileLogger.m; sourceTree = "<group>"; };
+		8B9FB10D1DF6AD3F003DC57C /* FCUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCUUID.h; sourceTree = "<group>"; };
+		8B9FB10E1DF6AD3F003DC57C /* FCUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCUUID.m; sourceTree = "<group>"; };
+		8B9FB10F1DF6AD3F003DC57C /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		8B9FB1101DF6AD3F003DC57C /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		8B9FB1111DF6AD3F003DC57C /* UIDevice+FCUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FCUUID.h"; sourceTree = "<group>"; };
+		8B9FB1121DF6AD3F003DC57C /* UIDevice+FCUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FCUUID.m"; sourceTree = "<group>"; };
+		8B9FB11A1DF6ADCB003DC57C /* JSPatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchHelper.h; sourceTree = "<group>"; };
+		8B9FB11B1DF6ADCB003DC57C /* JSPatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchHelper.m; sourceTree = "<group>"; };
+		8B9FB11F1DF6AF6B003DC57C /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		8B9FB1201DF6AF6B003DC57C /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		8B9FB1211DF6AF6B003DC57C /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		8B9FB1221DF6AF6B003DC57C /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		8B9FB1231DF6AF6B003DC57C /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		8B9FB1241DF6AF6B003DC57C /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		8B9FB1251DF6AF6B003DC57C /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		8B9FB1261DF6AF6B003DC57C /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		8B9FB1271DF6AF6B003DC57C /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		8B9FB1281DF6AF6B003DC57C /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		8B9FB1291DF6AF6B003DC57C /* YTKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetwork.h; sourceTree = "<group>"; };
+		8B9FB12A1DF6AF6B003DC57C /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		8B9FB12B1DF6AF6B003DC57C /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		8B9FB12C1DF6AF6B003DC57C /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		8B9FB12D1DF6AF6B003DC57C /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		8B9FB12E1DF6AF6B003DC57C /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		8B9FB12F1DF6AF6B003DC57C /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		8B9FB1301DF6AF6B003DC57C /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		8B9FB1311DF6AF6B003DC57C /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
 		CB0FC271BA1651D301A70D2A /* libPods-MobileProjectDefault-IPhoneProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileProjectDefault-IPhoneProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B93EBC34AACD0186ED50F0 /* Pods-MobileProjectDefault-IPhoneProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProjectDefault-IPhoneProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProjectDefault-IPhoneProject/Pods-MobileProjectDefault-IPhoneProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +215,11 @@
 		8B9FB0E01DF6A16A003DC57C /* Extend 扩展 */ = {
 			isa = PBXGroup;
 			children = (
+				8B9FB11D1DF6ADEA003DC57C /* Network 网络 */,
+				8B9FB1031DF6AC91003DC57C /* Tools 工具类 */,
+				8B9FB1021DF6AC75003DC57C /* Macros 宏 */,
+				8B9FB1011DF6AC45003DC57C /* Controls 自定义控件 */,
+				8B9FB0FF1DF6AC04003DC57C /* Const 常量 */,
 			);
 			name = "Extend 扩展";
 			path = Extend;
@@ -401,6 +455,123 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8B9FB0FF1DF6AC04003DC57C /* Const 常量 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Const 常量";
+			path = Const;
+			sourceTree = "<group>";
+		};
+		8B9FB1011DF6AC45003DC57C /* Controls 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Controls 自定义控件";
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		8B9FB1021DF6AC75003DC57C /* Macros 宏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Macros 宏";
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		8B9FB1031DF6AC91003DC57C /* Tools 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB1191DF6ADCB003DC57C /* JSPatchHelper 热更新 */,
+				8B9FB1041DF6AD3F003DC57C /* Reachability 网络状态 */,
+				8B9FB1071DF6AD3F003DC57C /* Logger 日志记录 */,
+				8B9FB10C1DF6AD3F003DC57C /* FCUUID 设备标示 */,
+			);
+			name = "Tools 工具类";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8B9FB1041DF6AD3F003DC57C /* Reachability 网络状态 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB1051DF6AD3F003DC57C /* Reachability.h */,
+				8B9FB1061DF6AD3F003DC57C /* Reachability.m */,
+			);
+			name = "Reachability 网络状态";
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		8B9FB1071DF6AD3F003DC57C /* Logger 日志记录 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB1081DF6AD3F003DC57C /* MPLoggerFormatter.h */,
+				8B9FB1091DF6AD3F003DC57C /* MPLoggerFormatter.m */,
+				8B9FB10A1DF6AD3F003DC57C /* MyFileLogger.h */,
+				8B9FB10B1DF6AD3F003DC57C /* MyFileLogger.m */,
+			);
+			name = "Logger 日志记录";
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		8B9FB10C1DF6AD3F003DC57C /* FCUUID 设备标示 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB10D1DF6AD3F003DC57C /* FCUUID.h */,
+				8B9FB10E1DF6AD3F003DC57C /* FCUUID.m */,
+				8B9FB10F1DF6AD3F003DC57C /* UICKeyChainStore.h */,
+				8B9FB1101DF6AD3F003DC57C /* UICKeyChainStore.m */,
+				8B9FB1111DF6AD3F003DC57C /* UIDevice+FCUUID.h */,
+				8B9FB1121DF6AD3F003DC57C /* UIDevice+FCUUID.m */,
+			);
+			name = "FCUUID 设备标示";
+			path = FCUUID;
+			sourceTree = "<group>";
+		};
+		8B9FB1191DF6ADCB003DC57C /* JSPatchHelper 热更新 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB11A1DF6ADCB003DC57C /* JSPatchHelper.h */,
+				8B9FB11B1DF6ADCB003DC57C /* JSPatchHelper.m */,
+			);
+			name = "JSPatchHelper 热更新";
+			path = JSPatchHelper;
+			sourceTree = "<group>";
+		};
+		8B9FB11D1DF6ADEA003DC57C /* Network 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB11E1DF6AF6B003DC57C /* YTKNetwork */,
+			);
+			name = "Network 网络";
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8B9FB11E1DF6AF6B003DC57C /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FB11F1DF6AF6B003DC57C /* YTKBaseRequest.h */,
+				8B9FB1201DF6AF6B003DC57C /* YTKBaseRequest.m */,
+				8B9FB1211DF6AF6B003DC57C /* YTKBatchRequest.h */,
+				8B9FB1221DF6AF6B003DC57C /* YTKBatchRequest.m */,
+				8B9FB1231DF6AF6B003DC57C /* YTKBatchRequestAgent.h */,
+				8B9FB1241DF6AF6B003DC57C /* YTKBatchRequestAgent.m */,
+				8B9FB1251DF6AF6B003DC57C /* YTKChainRequest.h */,
+				8B9FB1261DF6AF6B003DC57C /* YTKChainRequest.m */,
+				8B9FB1271DF6AF6B003DC57C /* YTKChainRequestAgent.h */,
+				8B9FB1281DF6AF6B003DC57C /* YTKChainRequestAgent.m */,
+				8B9FB1291DF6AF6B003DC57C /* YTKNetwork.h */,
+				8B9FB12A1DF6AF6B003DC57C /* YTKNetworkAgent.h */,
+				8B9FB12B1DF6AF6B003DC57C /* YTKNetworkAgent.m */,
+				8B9FB12C1DF6AF6B003DC57C /* YTKNetworkConfig.h */,
+				8B9FB12D1DF6AF6B003DC57C /* YTKNetworkConfig.m */,
+				8B9FB12E1DF6AF6B003DC57C /* YTKNetworkPrivate.h */,
+				8B9FB12F1DF6AF6B003DC57C /* YTKNetworkPrivate.m */,
+				8B9FB1301DF6AF6B003DC57C /* YTKRequest.h */,
+				8B9FB1311DF6AF6B003DC57C /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -554,9 +725,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9FB13A1DF6AF6B003DC57C /* YTKRequest.m in Sources */,
+				8B9FB1321DF6AF6B003DC57C /* YTKBaseRequest.m in Sources */,
 				8B9FB0C11DF66307003DC57C /* ViewController.m in Sources */,
+				8B9FB1141DF6AD3F003DC57C /* MPLoggerFormatter.m in Sources */,
 				8B9FB0BE1DF66307003DC57C /* AppDelegate.m in Sources */,
+				8B9FB1381DF6AF6B003DC57C /* YTKNetworkConfig.m in Sources */,
+				8B9FB1361DF6AF6B003DC57C /* YTKChainRequestAgent.m in Sources */,
+				8B9FB1341DF6AF6B003DC57C /* YTKBatchRequestAgent.m in Sources */,
+				8B9FB11C1DF6ADCB003DC57C /* JSPatchHelper.m in Sources */,
+				8B9FB1181DF6AD3F003DC57C /* UIDevice+FCUUID.m in Sources */,
+				8B9FB1161DF6AD3F003DC57C /* FCUUID.m in Sources */,
+				8B9FB1331DF6AF6B003DC57C /* YTKBatchRequest.m in Sources */,
+				8B9FB1131DF6AD3F003DC57C /* Reachability.m in Sources */,
 				8B9FB0BB1DF66307003DC57C /* main.m in Sources */,
+				8B9FB1391DF6AF6B003DC57C /* YTKNetworkPrivate.m in Sources */,
+				8B9FB1151DF6AD3F003DC57C /* MyFileLogger.m in Sources */,
+				8B9FB1371DF6AF6B003DC57C /* YTKNetworkAgent.m in Sources */,
+				8B9FB1351DF6AF6B003DC57C /* YTKChainRequest.m in Sources */,
+				8B9FB1171DF6AD3F003DC57C /* UICKeyChainStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
